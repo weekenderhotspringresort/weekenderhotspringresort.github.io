@@ -192,7 +192,7 @@ textarea.form-control {
     transform: translateX(-50%);
     color: #fff; }
   .site-hero.overlay:before {
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.24);
     content: "";
     position: absolute;
     height: 100vh;
@@ -1194,6 +1194,19 @@ textarea.form-control {
       right: 0px; }
       .img-absolute img {
         max-width: 160px; } }
+
+.img-logo {
+  position: absolute;
+  bottom: -55px;
+  right: -100px; }
+  .img-logo img {
+    max-width: 140px;
+  }
+  @media (max-width: 991.98px) {
+    .img-logo {
+      right: 0px; }
+      .img-logo img {
+        max-width: 100px; } }
 
 .custom-breadcrumbs {
   list-style: none;
