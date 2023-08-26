@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: #081800;
   font-family: "Roboto", arial, sans-serif;
   font-weight: 200;
   font-size: 16px;
@@ -9,11 +9,11 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #ffba5a; }
+  background: #126e00; }
 
 ::selection {
   color: #fff;
-  background: #ffba5a; }
+  background: #0a3f00; }
 
 a {
   -webkit-transition: .3s all ease;
@@ -39,6 +39,26 @@ h1, h2, h3, h4, h5 {
 .container-fluid {
   max-width: 1600px; }
 
+
+.video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .65;
+
+  }
+
+  .resorts {
+    color: white;
+  }
+
+  .creditcard {
+    position: center;
+  }
+
 .btn {
   padding-left: 30px;
   padding-right: 30px;
@@ -55,7 +75,7 @@ h1, h2, h3, h4, h5 {
     border: 2px solid #fff; }
     .btn.btn-outline-white-primary:hover {
       border: 2px solid transparent;
-      background: #ffba5a;
+      background: #0b4100;
       color: #fff; }
   .btn.uppercase {
     text-transform: uppercase;
@@ -209,8 +229,11 @@ textarea.form-control {
       min-height: 700px; }
 
 .site-hero-inner {
-  height: 100vh;
-  min-height: 700px; }
+  position: absolute;
+  margin-top: -600px;
+  text-shadow: 3px 7px 4px rgba(0, 0, 0, 0.712);
+}
+
   .site-hero-inner .heading {
     font-size: 80px;
     font-family: "Playfair Display", times, serif;
@@ -900,11 +923,16 @@ textarea.form-control {
     width: 100%; }
 
 .block-32 {
+  margin: auto;
+  width: 50%;
   background: #fff;
-  padding: 30px;
+  padding: 20px;
   -webkit-box-shadow: 0 2px 80px -10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 80px -10px rgba(0, 0, 0, 0.2);
-  width: 100%; }
+  width: 90%; 
+  margin-left: 20px;
+  
+}
   .block-32 .field-icon-wrap {
     position: relative; }
     .block-32 .field-icon-wrap .form-control {
@@ -1071,6 +1099,10 @@ textarea.form-control {
   color: #000 !important; }
 
 .check-availabilty {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   margin-top: -170px;
   position: relative; }
   .check-availabilty .block-32 {
