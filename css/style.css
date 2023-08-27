@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5 {
     color: white;
   }
 
+  .resortfont {
+    color: white;
+  }
+
   .creditcard {
     position: center;
   }
@@ -1371,4 +1375,13 @@ textarea.form-control {
   top: 0;
   left: 0;
 }
+
+.promoprize {
+  background-color:#589e08;
+  color: white;
+  padding: 6px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
 /*End style*/
