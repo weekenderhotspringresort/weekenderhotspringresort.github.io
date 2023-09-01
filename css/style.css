@@ -1564,15 +1564,12 @@ textarea.form-control {
 }
 
 .check-availabilty {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-
-  position: relative;
-
+  position: relative !important;
   display: inline-block;
-  top: 130px;
+  top: 130px !important;
   z-index: 1;
 }
 
