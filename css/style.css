@@ -1148,7 +1148,7 @@ textarea.form-control {
   display: inline-block;
   position: absolute;
   left: 50%;
-  bottom: 140px;
+  bottom: 290px;
   z-index: 1;
   -webkit-transform: translateX(-25%);
   -ms-transform: translateX(-25%);
@@ -1568,8 +1568,12 @@ textarea.form-control {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  margin-top: -170px;
+
   position: relative;
+
+  display: inline-block;
+  top: 130px;
+  z-index: 1;
 }
 
 .check-availabilty .block-32 {

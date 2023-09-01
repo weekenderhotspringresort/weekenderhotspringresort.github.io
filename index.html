@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
   <link rel="stylesheet" href="css/jquery.timepicker.css">
   <link rel="stylesheet" href="css/fancybox.min.css">
-  <link rel="shortcut icon" href="images/logo_1.png"/> 
+  <link rel="shortcut icon" href="images/logo_1.png" />
 
   <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
@@ -92,34 +92,81 @@
 
 
 
-
+<!-- 
     <a class="mouse smoothscroll" href="#next">
       <div class="mouse-icon">
         <span class="mouse-wheel"></span>
       </div>
-    </a>
+    </a> -->
+      <div class="container">
+  
+        <div class="row check-availabilty" id="next">
+          <center>
+            <div class="row block-32" id="next" data-aos-offset="-200">
+              <div class="col-md-4 col-lg-7">
+                <div></div>
+                <p>Direct Booking:</p>
+                <a href="Booking.html" class="room">
+                  <button class="btn btn-primary btn-block text-white" style="width:80%;">BOOK NOW</button>
+                </a>
+                <br>
+              </div>
+              <div class=" col-md-6 col-lg-5">
+                <p>Credit Card Booking:</p>
+                <div class="row creditcard">
+                  <div style="width: 33%">
+  
+                    <a href="https://www.booking.com/" class="room">
+                      <figure class="img-wrap">
+                        <img src="images/1booking.png" alt="Booking.com" class="img-fluid mb-3">
+                      </figure>
+                    </a>
+                  </div>
+  
+                  <div style="width: 33%;">
+                    <a href="https://agoda.com/" class="room">
+                      <figure class="img-wrap">
+                        <img src="images/3booking.png" alt="Trivago.com" class="img-fluid mb-3">
+                      </figure>
+                    </a>
+                  </div>
+  
+                  <div style="width: 33%;">
+                    <a href="https://www.trivago.com/" class="room">
+                      <figure class="img-wrap">
+                        <img src="images/2booking.png" alt="Agoda.com" class="img-fluid mb-3">
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </center>
+        </div>
+  
+      </div>
   </section>
   <!-- END section -->
 
-
+<!-- 
   <section class="section bg-light pb-0">
     <div class="container">
 
       <div class="row check-availabilty" id="next">
         <center>
           <div class="row block-32" id="next" data-aos-offset="-200">
-            <div class="col-md-4 col-lg-7" data-aos="fade-up">
+            <div class="col-md-4 col-lg-7">
               <div></div>
               <p>Direct Booking:</p>
               <a href="https://calendar.app.google/wvR4veknZ5mtRERQ9" class="room">
-                <button class="btn btn-primary btn-block text-white" style="width:80%;">Direct Booking</button>
+                <button class="btn btn-primary btn-block text-white" style="width:80%;">BOOK NOW</button>
               </a>
               <br>
             </div>
             <div class=" col-md-6 col-lg-5">
-              <p data-aos="fade-up">Credit Card Booking:</p>
+              <p>Credit Card Booking:</p>
               <div class="row creditcard">
-                <div style="width: 33%" data-aos="fade-up">
+                <div style="width: 33%">
 
                   <a href="https://www.booking.com/" class="room">
                     <figure class="img-wrap">
@@ -128,7 +175,7 @@
                   </a>
                 </div>
 
-                <div style="width: 33%;" data-aos="fade-up">
+                <div style="width: 33%;">
                   <a href="https://agoda.com/" class="room">
                     <figure class="img-wrap">
                       <img src="images/3booking.png" alt="Trivago.com" class="img-fluid mb-3">
@@ -136,7 +183,7 @@
                   </a>
                 </div>
 
-                <div style="width: 33%;" data-aos="fade-up">
+                <div style="width: 33%;">
                   <a href="https://www.trivago.com/" class="room">
                     <figure class="img-wrap">
                       <img src="images/2booking.png" alt="Agoda.com" class="img-fluid mb-3">
@@ -150,7 +197,7 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <section id="about-us" class="py-5 bg-light">
     <div class="container">
@@ -210,7 +257,8 @@
                   <h6 style="color: yellow">Monday - Thursday</h6>
                 </li>
                 <br>
-                <li>₱15,000.00</li>
+                <li>
+                  <div id="weekender1weekdays"></div>
                 </li>
                 <br>
                 <li>
@@ -218,7 +266,8 @@
                   <h6 style="color: yellow;">Friday - Sunday</h6>
                 </li>
                 <br>
-                <li>₱20,000.00</li>
+                <li>
+                  <div id="weekender1weekends"></div>
                 </li>
               </ul>
             </div>
@@ -242,8 +291,8 @@
                   <h6 style="color: yellow">Monday - Thursday</h6>
                 </li>
                 <br>
-                <li>₱25,000.00</li>
-                <!-- <li>₱35,000.00 / 2 NIGHTS</li> -->
+                <li>
+                  <div id="weekender2weekdays"></div>
                 </li>
                 <br>
                 <li>
@@ -251,8 +300,8 @@
                   <h6 style="color: yellow;">Friday - Sunday</h6>
                 </li>
                 <br>
-                <li>₱28,000.00</li>
-                <!-- <li>₱55,000.00 / 2 NIGHTS</li> -->
+                <li>
+                  <div id="weekender2weekends"></div>
                 </li>
               </ul>
             </div>
@@ -276,8 +325,8 @@
                   <h6 style="color: yellow">Monday - Thursday</h6>
                 </li>
                 <br>
-                <li>₱20,000.00</li>
-                <!-- <li>₱38,000.00 / 2 NIGHTS</li> -->
+                <li>
+                  <div id="weekender3weekdays"></div>
                 </li>
                 <br>
                 <li>
@@ -285,8 +334,8 @@
                   <h6 style="color: yellow;">Friday - Sunday</h6>
                 </li>
                 <br>
-                <li>₱25,000.00</li>
-                <!-- <li>₱45,000.00 / 2 NIGHTS</li> -->
+                <li>
+                  <div id="weekender3weekends"></div>
                 </li>
               </ul>
             </div>
@@ -310,8 +359,8 @@
                   <h6 style="color: yellow">Monday - Thursday</h6>
                 </li>
                 <br>
-                <li>₱10,000.00</li>
-                <!-- <li>₱13,000.00 / 2 NIGHTS</li> -->
+                <li>
+                  <div id="weekdaysresortweekdays"></div>
                 </li>
                 <br>
                 <li>
@@ -319,8 +368,8 @@
                   <h6 style="color: yellow;">Friday - Sunday</h6>
                 </li>
                 <br>
-                <li>₱13,000.00</li>
-                <!-- <li>₱18,000.00 / 2 NIGHTS</li> -->
+                <li>
+                  <div id="weekdaysresortweekends"></div>
                 </li>
               </ul>
             </div>
@@ -330,7 +379,7 @@
 
       </div>
 
-    
+
       <!-- <div class="container">
         <div class="row justify-content-center text-center mb-5">
 
@@ -794,47 +843,48 @@
         </div>
       </div>
     </center>
-      <!-- Messenger Chat Plugin Code -->
+    <!-- Messenger Chat Plugin Code -->
 
-      <!-- <div class="fb-customerchat"
+    <!-- <div class="fb-customerchat"
       attribution="install_email"
       page_id="YOUR_PAGE_ID"
       theme_color="#your_theme_color"
       logged_in_greeting="Hello! How can we help you today?"
       logged_out_greeting="Hello! Please log in to chat with us.">
     </div> -->
-  
-<!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
 
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
 
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "443640479138908");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
-<!-- Your SDK code -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v17.0'
-    });
-  };
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "443640479138908");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
 
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-  
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: 'v17.0'
+        });
+      };
+
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
   </footer>
 
 
@@ -846,14 +896,9 @@
   <script src="js/jquery.stellar.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/price-rates-data.js"></script>
-
-
   <script src="js/aos.js"></script>
-
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
-
-
 
   <script src="js/main.js"></script>
 </body>
