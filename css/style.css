@@ -1776,7 +1776,6 @@ textarea.form-control {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: .1em;
-  font-weight: bold;
 }
 
 .custom-breadcrumbs li a {
@@ -1933,5 +1932,11 @@ textarea.form-control {
   font-weight: bold;
   border-radius: 6px;
 }
+
+.amenities-number {
+  color: rgb(194, 216, 0) !important;
+  font-weight: bold !important;
+}
+
 
 /*End style*/
