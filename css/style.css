@@ -198,7 +198,7 @@ textarea.form-control {
 }
 
 .menu-open .site-navbar {
-  border: 10px solid #f8f9fa;
+  border: 0px solid #f8f9fa;
 }
 
 .site-logo {
@@ -228,13 +228,16 @@ textarea.form-control {
   bottom: 0;
   z-index: 99;
   border: 20px solid transparent;
-  background: #fff;
+  background-image: url("../../images/1.jpg");
   min-height: 300px;
+  background-size: cover;
   overflow-y: scroll;
 }
 
 .site-navbar nav {
   text-align: left;
+  background: white;
+  opacity: 0.8;
 }
 
 .site-navbar nav .menu {
@@ -253,7 +256,8 @@ textarea.form-control {
 }
 
 .site-navbar nav .menu li.active a {
-  color: #ffba5a;
+  color: #04850e;
+  text-decoration: underline;
 }
 
 .site-navbar nav .menu li.active a:before {
@@ -1961,6 +1965,7 @@ textarea.form-control {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .dropdown-content a:hover {
   display: block;
 }
