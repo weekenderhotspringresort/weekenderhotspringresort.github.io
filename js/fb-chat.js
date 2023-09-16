@@ -1,11 +1,3 @@
-
-var chatbox = document.getElementById('fb-customer-chat');
-chatbox.setAttribute("page_id", "443640479138908");
-chatbox.setAttribute("attribution", "biz_inbox");
-
-
-// <!-- Your SDK code -->
-
 window.fbAsyncInit = function () {
   FB.init({
     xfbml: true,
@@ -21,3 +13,9 @@ window.fbAsyncInit = function () {
   js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+
+
+var chatbox = document.getElementById('fb-customer-chat');
+chatbox.setAttribute("page_id", "443640479138908");
+chatbox.setAttribute("attribution", "biz_inbox");
