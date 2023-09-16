@@ -273,7 +273,7 @@
           </a>
 
             <div class="p-3 text-center room-info" data-aos="fade-up">
-              <h2 class="resorts">Weekender Villa 1</h2>
+              <h2 class="resorts">Weekender Villa .1</h2>
               <ul class="custom-breadcrumbs">
                 <li>30 Pax Maximum</li>
                 <br>
@@ -285,7 +285,7 @@
                 </li>
                 <br>
                 <li>
-                  <button class="btn btn-primary text-white py-0 mb-4">ASK RATE</button>
+                  <button id="fb-ask-rate" class="btn btn-primary text-white py-0 mb-4">ASK RATE</button>
                 </li>
                 <br>
                 <li>
@@ -891,6 +891,10 @@
 
     <script>
       var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "443640479138908");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      var chatbox = document.getElementById('fb-ask-rate');
       chatbox.setAttribute("page_id", "443640479138908");
       chatbox.setAttribute("attribution", "biz_inbox");
     </script>
