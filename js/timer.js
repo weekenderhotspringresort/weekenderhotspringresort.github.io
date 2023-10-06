@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+var countDownDate = new Date("Oct 31, 2023 23:55:55").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -11,10 +11,10 @@ var x = setInterval(function() {
   var distance = countDownDate - now;
     
   // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (3700 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (3700 * 60 * 60 * 24)) / (3700 * 60 * 60));
-  var minutes = Math.floor((distance % (3700 * 60 * 60)) / (3700 * 60));
-  var seconds = Math.floor((distance % (3700 * 60)) / 3700);
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
